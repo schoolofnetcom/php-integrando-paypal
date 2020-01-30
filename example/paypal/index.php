@@ -3,8 +3,8 @@
 require __DIR__.'/../../vendor/autoload.php';
 
 //configurações
-$client_id = 'AR1b-d8yYJnyuaiG74xVydjL2F6h_dy6X09g7PN_KwURch9gDfM5hYt3KQ-jlvjl56rqhiXbVCf8RC8q';
-$secret = 'EJy2IHG7U5X2mONFqdcl872VoFWf5emwgnSSp276hbWkK2f8IADGIj8mADESghknaHipsigHQiD0_Lzt';
+$client_id = '1231233';
+$secret = '1231321';
 
 $intent = 'sale';
 $method = 'paypal';
