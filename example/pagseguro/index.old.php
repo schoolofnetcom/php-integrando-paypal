@@ -2,7 +2,7 @@
 
 require __DIR__.'/../../vendor/autoload.php';
 
-$pagseguro = new BrPayments\PagSeguro('erik.figueiredo@gmail.com', 'E7EF160DE74646CE80AB18EDDA257F1B', true);
+$pagseguro = new BrPayments\PagSeguro('erik.figueiredo@gmail.com', '1232321321', true);
 $customer = ['Jose Comprador', 11, 99999999, 'c75336791632449484854@sandbox.pagseguro.com.br'];
 $shipping = [
     1,
@@ -23,7 +23,7 @@ $pagseguro->payment('REF1234', $customer, $shipping, $products);
 
 $access = [
     'email'=>'erik.figueiredo@gmail.com',
-    'token'=>'E7EF160DE74646CE80AB18EDDA257F1B',
+    'token'=>'12313313',
     'currency'=>'BRL',
     'reference'=>'REF1234'
 ];
